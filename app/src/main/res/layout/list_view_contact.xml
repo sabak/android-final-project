@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center_vertical"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/elem_avatar"
+        android:layout_width="@dimen/contact_list_avatar_dimen"
+        android:layout_height="@dimen/contact_list_avatar_dimen"
+        android:contentDescription="@string/elem_indicator"
+        android:padding="@dimen/contact_list_avatar_padding"
+        android:src="@drawable/default_avatar"/>
+
+    <TextView
+        android:id="@+id/list_view_contact_elem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="@dimen/contact_list_name_padding_start"
+        android:paddingRight="@dimen/contact_list_name_padding_start"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BOGChat</string>
+
+    <string name="fragment_name_recents">Recent chats</string>
+    <string name="fragment_name_contacts">Contacts</string>
+    <string name="fragment_name_settings">Settings</string>
+    <string name="elem_indicator">Contact avatar</string>
+    <string name="application_inner_logo">BOG Logo</string>
+    <string name="hint_search_contacts">Type to search</string>
+    <string name="description_settings_avatar">User avatar on settings page</string>
+</resources>

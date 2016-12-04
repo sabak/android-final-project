@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.saba.bogchat.view.fragment.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/separation_line_width"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/separation_line_width"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/separation_line_width"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/settings_avatar_dimen"
+        android:layout_height="@dimen/settings_avatar_dimen"
+        android:layout_marginTop="@dimen/settings_avatar_margin_top"
+        android:contentDescription="@string/description_settings_avatar"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/my_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+</LinearLayout>

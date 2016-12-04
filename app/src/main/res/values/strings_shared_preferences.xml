@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_file_key">main_app_preferences</string>
+    <string name="session_expired">is_logged_in</string>
+    <string name="user_id">user_contact_id</string>
+    <string name="user_display_name">user_contact_display_name</string>
+    <string name="user_phone_number">user_contact_phone_number</string>
+    <string name="user_avatar_path">user_contact_avatar_filename</string>
+    <string name="user_default_phone_number">+995 995 995</string>
+    <string name="user_default_avatar_path">default_avatar.9.png</string>
+    <string name="fresh_contacts_json_uri">https://dl.dropboxusercontent.com/u/28030891/FreeUni/Android/assinments/contacts.json</string>
+    <string name="json_list_arr_name">contactList</string>
+    <string name="directory_avatars">avatar_dir</string>
+</resources>

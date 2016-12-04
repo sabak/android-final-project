@@ -1,0 +1,15 @@
+<resources>
+    <string name="title_activity_login">შესვლა</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_id">ID</string>
+    <string name="prompt_password">პაროლი (არასავალდებულო)</string>
+    <string name="action_sign_in">შესვლა ან რეგისტრაცია</string>
+    <string name="action_sign_in_short">შესვლა</string>
+
+    <string name="error_invalid_id">მოცემული ID არასწორია</string>
+    <string name="error_invalid_password">პაროლი მოკლეა</string>
+    <string name="error_incorrect_password">პაროლი არასწორია</string>
+    <string name="error_field_required">ეს ველი აუცილებელია</string>
+    <string name="hint_login_toast">სადემონსტრაციოდ გამოიყენეთ ნებისმიერი ID</string>
+</resources>
