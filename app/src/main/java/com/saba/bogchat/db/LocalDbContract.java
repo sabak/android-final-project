@@ -20,7 +20,7 @@ public final class LocalDbContract {
 
     /* Contacts table */
     public abstract static class Contact implements BaseColumns {
-        public static final String TABLE_NAME = "contact";
+        public static final String TABLE_NAME = "contact"; 
         public static final String COLUMN_NAME_CONTACT_ID = "contact_id";
         public static final String COLUMN_NAME_DISPLAY_NAME = "display_name";
         public static final String COLUMN_NAME_PHONE_NUMBER = "phone_number";
